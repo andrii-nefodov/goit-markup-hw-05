@@ -509,18 +509,18 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .input-footer:focus,
 .input-footer:hover {
   border-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn-footer {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
@@ -528,6 +528,7 @@ img {
 
 .subscribe-icon {
   fill: currentColor;
+  margin-left: 16px;
 }
 
 .backdrop {
@@ -723,17 +724,11 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-marker:hover,
-.checkbox-marker:focus {
-  background-color: #404bbf;
+.checkbox-icon {
+  fill: currentColor;
 }
 
-.checkbox-icon:hover,
-.checkbox-icon:focus {
-  fill: #f4f4fd;
-}
-
-input:checked + .checkbox-marker {
+.checkbox-input:checked + .checkbox-form-label > .checkbox-marker {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
