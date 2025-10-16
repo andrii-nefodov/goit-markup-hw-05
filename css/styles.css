@@ -482,7 +482,7 @@ img {
   margin-left: auto;
 }
 
-.form-input {
+.form-footer {
   display: flex;
   gap: 24px;
   align-items: center;
@@ -501,7 +501,7 @@ img {
 .input-footer {
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  min-width: 264px;
   height: 40px;
   padding: 8px 16px;
   font-size: 12px;
@@ -725,15 +725,15 @@ img {
 
 .checkbox-marker:hover,
 .checkbox-marker:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 
 .checkbox-icon:hover,
 .checkbox-icon:focus {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
-.visually-hidden:checked + .checkbox-marker {
+input:checked + .checkbox-marker {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
