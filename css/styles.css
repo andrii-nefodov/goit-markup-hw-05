@@ -519,6 +519,13 @@ img {
   border-color: #4d5ae5;
 }
 
+.input-footer::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
 .btn-footer {
   display: flex;
   align-items: center;
@@ -724,10 +731,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-icon {
-  fill: currentColor;
 }
 
 .checkbox-input:checked + .checkbox-form-label > .checkbox-marker {
